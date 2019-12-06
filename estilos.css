@@ -1,0 +1,137 @@
+body, a{
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration:none;
+    background-image: url(img/light_wool.png);
+    
+}
+
+a{
+    
+    color: white;
+    text-decoration:none !important;
+    background:rgb(74, 87, 170) !important;
+
+}
+
+p{ 
+    font-size:25px;
+    font-style: normal;
+}
+
+.icono{
+    font-size:25px;
+}
+
+.cabecera{
+    height: 100px;
+}
+
+.logo{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 50px !important;
+    margin-top:10px;
+    height: 60px;
+}
+
+.pielogo{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px !important;
+    margin-left:10px;
+}
+
+
+.menu{
+    padding-top: 30px;
+    padding-bottom: 1px;
+    color: white; 
+    font-size: 18px;
+    background: rgb(74, 87, 170) !important;
+}
+
+.menu a{
+    /* background-color:rgb(153, 202, 153) !important;  */
+}
+
+.menu a:hover, .elementomenu:hover, .seleccionado{
+    color:rgb(74, 87, 170) !important;
+    background:white !important;  
+    text-decoration:none;
+    font-weight: 1000;
+    border-radius:30px 30px 30px 30px;
+}
+
+.separador-blanco{
+    height:2px;
+    background-color:white;
+}
+
+.separador-verde{
+    height:6px;
+    background-color: rgb(74, 87, 170);;
+}
+
+.carousel-item {
+    display: block;
+    width: 400px;
+    height: 300px;
+    
+}
+.carousel-item img {
+    height: 500px;
+    width: 500px;
+}
+
+.imagen{
+   border-style: solid;
+   border-width: 2px;
+   border-color: white;
+}
+
+.btn{
+    background:rgb(238, 238, 238);
+    color:black;
+    border-radius:100px 100px 100px 100px;
+}
+
+.btn:hover{
+    background:rgb(74, 87, 170);
+    color:white;
+}
+
+.tituloinicio{
+    background:rgb(74, 87, 170);
+    color:white;
+    width:370px;
+    align-items: center;
+    padding-bottom:15px;
+    padding-left: 120px;
+    padding-right: 15px;
+    padding-top:20px;
+    border-radius:100px 100px 100px 100px;
+}
+
+.titulocontacto{
+    background:rgb(74, 87, 170);
+    color:white;
+    width:370px;
+    align-items: center;
+    padding-bottom:15px;
+    padding-left: 70px;
+    padding-right: 15px;
+    padding-top:20px;
+    border-radius:100px 100px 100px 100px;
+}
+
+.form-control{
+    border-style:solid;
+    border-color:black;
+    border-width:1px;
+    border-radius:100px 100px 100px 100px;
+}
+
+.textarea{
+    border-style:solid;
+    border-color:black;
+    border-width:1px;
+    border-radius:20px 20px 20px 20px;
+}
