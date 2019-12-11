@@ -1,4 +1,13 @@
-<div class="row justify-content-center"><h1 class="tituloinicio">INICIO</h1></div>
+<div class="container mb-5">
+
+<div class="row justify-content-center">
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 titulo">
+        <h1 class="text-center">INICIO</h1>
+    </div>
+</div>
+
+</div>
+
 <div class="row">
     
     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">

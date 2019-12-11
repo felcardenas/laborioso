@@ -1,58 +1,37 @@
 //ABRIR PAGINAS MENÃš
+
 $(document).ready(function(){
 
     var pagina = '';
     
     $("#inicio").click(function(){
-        quitarClases();
-        $(this).addClass('seleccionado');
-        
         pagina = "inicio.php";
-        confirmar(pagina);
+        irA(pagina);
     });
 
     $("#quienessomos").click(function(){
-        quitarClases();
-        $(this).addClass('seleccionado');
-        
-
         pagina = "quienessomos.php";
-        confirmar(pagina);
+        irA(pagina);
     });
 
     $("#examenes").click(function(){
-        quitarClases();
-        $(this).addClass('seleccionado');
-        
         pagina = "examenes.php";
-        confirmar(pagina);
+        irA(pagina);
     });
 
     $("#revisarexamenes").click(function(){
-        quitarClases();
-        $(this).addClass('seleccionado');
-        
         pagina = "revisarexamenes.php";
         pagina = "enconstruccion.php";
-        confirmar(pagina);
+        irA(pagina);
     });
 
     $("#contacto").click(function(){
-        quitarClases();
-        $(this).addClass('seleccionado');
+        irA(pagina);
     });
 
     
 });
 
-function quitarClases(){
-    $("#inicio").removeClass('seleccionado');
-    $("#quienessomos").removeClass('seleccionado');
-    $("#examenes").removeClass('seleccionado');
-    $("#revisarexamenes").removeClass('seleccionado');
-    $("#contacto").removeClass('seleccionado');        
-};
-
-function confirmar(pagina){
+function irA(pagina){
             $("#contenido").load(pagina);      
 };

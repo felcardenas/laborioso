@@ -9,7 +9,7 @@ a{
     
     color: white;
     text-decoration:none !important;
-    background:rgb(74, 87, 170) !important;
+    background:#35849a !important;
 
 }
 
@@ -45,15 +45,15 @@ p{
     padding-bottom: 1px;
     color: white; 
     font-size: 18px;
-    background: rgb(74, 87, 170) !important;
+    background: #35849a !important;
 }
 
 .menu a{
     /* background-color:rgb(153, 202, 153) !important;  */
 }
 
-.menu a:hover, .elementomenu:hover, .seleccionado{
-    color:rgb(74, 87, 170) !important;
+.menu a:hover, .elementomenu:hover{
+    color:#35849a !important;
     background:white !important;  
     text-decoration:none;
     font-weight: 1000;
@@ -67,18 +67,7 @@ p{
 
 .separador-verde{
     height:6px;
-    background-color: rgb(74, 87, 170);;
-}
-
-.carousel-item {
-    display: block;
-    width: 400px;
-    height: 300px;
-    
-}
-.carousel-item img {
-    height: 500px;
-    width: 500px;
+    background-color: #35849a;
 }
 
 .imagen{
@@ -94,26 +83,26 @@ p{
 }
 
 .btn:hover{
-    background:rgb(74, 87, 170);
+    background:#35849a;
     color:white;
 }
 
 .tituloinicio{
-    background:rgb(74, 87, 170);
+    background:#35849a;
     color:white;
-    width:370px;
-    align-items: center;
+    width:400px;
+    
     padding-bottom:15px;
-    padding-left: 120px;
+    padding-left:20px;
     padding-right: 15px;
-    padding-top:20px;
+    
     border-radius:100px 100px 100px 100px;
 }
 
 .titulocontacto{
-    background:rgb(74, 87, 170);
+    background:#35849a;
     color:white;
-    width:370px;
+    width:300px;
     align-items: center;
     padding-bottom:15px;
     padding-left: 70px;
@@ -124,11 +113,12 @@ p{
 
 
 .titulo{
-    background:rgb(74, 87, 170);
+    background:#35849a;
     color:white;
     padding-top:20px;
     border-radius:100px 100px 100px 100px;
 }
+
 
 
 .form-control{
